@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import RealmSwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,19 +16,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
         
-        setup()
+        initSetup()
         
         return true
     }
     
-    private func setup() {
-        let mainWeatherVC = UIViewController()
+    private func initSetup() {
+        UINavigationBar.appearance().tintColor = UIColor.black
+        UITabBar.appearance().tintColor = UIColor.black
+        
+        let mainTabBar = TabBarController(itemTypes: [.stationList, .stationMap, .favoriteStation])
         
         window =  UIWindow(frame: UIScreen.main.bounds)
         window?.backgroundColor = .white
-        window?.rootViewController = mainWeatherVC
+        window?.rootViewController = mainTabBar
         window?.makeKeyAndVisible()
     }
 }

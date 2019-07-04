@@ -10,6 +10,32 @@
 		0401838A22CB2D120090AA2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0401838922CB2D120090AA2E /* AppDelegate.swift */; };
 		0401839122CB2D140090AA2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0401839022CB2D140090AA2E /* Assets.xcassets */; };
 		0401839422CB2D140090AA2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0401839222CB2D140090AA2E /* LaunchScreen.storyboard */; };
+		0401839F22CB3CBE0090AA2E /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0401839E22CB3CBE0090AA2E /* Station.swift */; };
+		040183A622CB497B0090AA2E /* StationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040183A522CB497B0090AA2E /* StationService.swift */; };
+		040183AB22CB659C0090AA2E /* TabBarItemType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040183AA22CB659C0090AA2E /* TabBarItemType.swift */; };
+		040183AD22CB65CD0090AA2E /* TabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040183AC22CB65CD0090AA2E /* TabBarItem.swift */; };
+		040183AF22CB671D0090AA2E /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040183AE22CB671D0090AA2E /* TabBarController.swift */; };
+		040183B222CB746C0090AA2E /* StationListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040183B022CB746C0090AA2E /* StationListVC.swift */; };
+		040183B322CB746C0090AA2E /* StationListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040183B122CB746C0090AA2E /* StationListVC.xib */; };
+		040183B622CB75570090AA2E /* StationMapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040183B422CB75570090AA2E /* StationMapVC.swift */; };
+		040183B722CB75570090AA2E /* StationMapVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040183B522CB75570090AA2E /* StationMapVC.xib */; };
+		040183BA22CB75700090AA2E /* FavoriteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040183B822CB75700090AA2E /* FavoriteVC.swift */; };
+		040183BB22CB75700090AA2E /* FavoriteVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040183B922CB75700090AA2E /* FavoriteVC.xib */; };
+		040183BE22CB77B30090AA2E /* StationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040183BC22CB77B30090AA2E /* StationCell.swift */; };
+		040183BF22CB77B30090AA2E /* StationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040183BD22CB77B30090AA2E /* StationCell.xib */; };
+		040183C222CB9F670090AA2E /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040183C122CB9F670090AA2E /* UITableView+Extension.swift */; };
+		040183CE22CC093F0090AA2E /* CustomPinAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040183CD22CC093F0090AA2E /* CustomPinAnnotation.swift */; };
+		040183D022CC095A0090AA2E /* CustomPinAnnotation.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040183CF22CC095A0090AA2E /* CustomPinAnnotation.xib */; };
+		040183D222CC1BE30090AA2E /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040183D122CC1BE30090AA2E /* Date+Extension.swift */; };
+		040183D422CC1C2B0090AA2E /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040183D322CC1C2B0090AA2E /* String+Extension.swift */; };
+		040183D622CC3ABF0090AA2E /* MyCustomPointAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040183D522CC3ABF0090AA2E /* MyCustomPointAnnotation.swift */; };
+		040183DA22CC49610090AA2E /* CustomCallOutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040183D922CC49610090AA2E /* CustomCallOutView.swift */; };
+		040183DC22CC49760090AA2E /* CustomCallOutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040183DB22CC49760090AA2E /* CustomCallOutView.xib */; };
+		040183DE22CC4E420090AA2E /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040183DD22CC4E420090AA2E /* UIView+Extension.swift */; };
+		040183E122CC5C6E0090AA2E /* DistrictData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040183E022CC5C6D0090AA2E /* DistrictData.swift */; };
+		0425DC2B22CCAA6A005E04AD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0425DC2A22CCAA6A005E04AD /* Constants.swift */; };
+		0425DC2D22CCAD2F005E04AD /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0425DC2C22CCAD2F005E04AD /* UIViewController+Extension.swift */; };
+		0425DC2F22CCCF1D005E04AD /* StationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0425DC2E22CCCF1D005E04AD /* StationViewModel.swift */; };
 		783863C82C333ACFEA39590F /* Pods_YoubikeDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9C36DF9A81CAE5123B90864 /* Pods_YoubikeDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -19,6 +45,32 @@
 		0401839022CB2D140090AA2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0401839322CB2D140090AA2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0401839522CB2D140090AA2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0401839E22CB3CBE0090AA2E /* Station.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Station.swift; sourceTree = "<group>"; };
+		040183A522CB497B0090AA2E /* StationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationService.swift; sourceTree = "<group>"; };
+		040183AA22CB659C0090AA2E /* TabBarItemType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItemType.swift; sourceTree = "<group>"; };
+		040183AC22CB65CD0090AA2E /* TabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItem.swift; sourceTree = "<group>"; };
+		040183AE22CB671D0090AA2E /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		040183B022CB746C0090AA2E /* StationListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationListVC.swift; sourceTree = "<group>"; };
+		040183B122CB746C0090AA2E /* StationListVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StationListVC.xib; sourceTree = "<group>"; };
+		040183B422CB75570090AA2E /* StationMapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationMapVC.swift; sourceTree = "<group>"; };
+		040183B522CB75570090AA2E /* StationMapVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StationMapVC.xib; sourceTree = "<group>"; };
+		040183B822CB75700090AA2E /* FavoriteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteVC.swift; sourceTree = "<group>"; };
+		040183B922CB75700090AA2E /* FavoriteVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavoriteVC.xib; sourceTree = "<group>"; };
+		040183BC22CB77B30090AA2E /* StationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationCell.swift; sourceTree = "<group>"; };
+		040183BD22CB77B30090AA2E /* StationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StationCell.xib; sourceTree = "<group>"; };
+		040183C122CB9F670090AA2E /* UITableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
+		040183CD22CC093F0090AA2E /* CustomPinAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPinAnnotation.swift; sourceTree = "<group>"; };
+		040183CF22CC095A0090AA2E /* CustomPinAnnotation.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomPinAnnotation.xib; sourceTree = "<group>"; };
+		040183D122CC1BE30090AA2E /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		040183D322CC1C2B0090AA2E /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		040183D522CC3ABF0090AA2E /* MyCustomPointAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomPointAnnotation.swift; sourceTree = "<group>"; };
+		040183D922CC49610090AA2E /* CustomCallOutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCallOutView.swift; sourceTree = "<group>"; };
+		040183DB22CC49760090AA2E /* CustomCallOutView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCallOutView.xib; sourceTree = "<group>"; };
+		040183DD22CC4E420090AA2E /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		040183E022CC5C6D0090AA2E /* DistrictData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistrictData.swift; sourceTree = "<group>"; };
+		0425DC2A22CCAA6A005E04AD /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		0425DC2C22CCAD2F005E04AD /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		0425DC2E22CCCF1D005E04AD /* StationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationViewModel.swift; sourceTree = "<group>"; };
 		2A5860B72CED6DC381D14733 /* Pods-YoubikeDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoubikeDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YoubikeDemo/Pods-YoubikeDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		6B4A43E8A701003627057E94 /* Pods-YoubikeDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoubikeDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-YoubikeDemo/Pods-YoubikeDemo.release.xcconfig"; sourceTree = "<group>"; };
 		D9C36DF9A81CAE5123B90864 /* Pods_YoubikeDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YoubikeDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,6 +109,13 @@
 		0401838822CB2D120090AA2E /* YoubikeDemo */ = {
 			isa = PBXGroup;
 			children = (
+				040183DF22CC5C540090AA2E /* Constants */,
+				040183C022CB9F4A0090AA2E /* Extensions */,
+				040183A422CB47870090AA2E /* Service */,
+				040183A922CB657B0090AA2E /* Tab Bar */,
+				0425DC2022CC9C5A005E04AD /* Models */,
+				0425DC1F22CC9C34005E04AD /* ViewModels */,
+				0425DC2122CC9C92005E04AD /* Views */,
 				0401839B22CB32330090AA2E /* Supporting Files */,
 			);
 			path = YoubikeDemo;
@@ -71,6 +130,113 @@
 				0401839522CB2D140090AA2E /* Info.plist */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		040183A422CB47870090AA2E /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				040183A522CB497B0090AA2E /* StationService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		040183A922CB657B0090AA2E /* Tab Bar */ = {
+			isa = PBXGroup;
+			children = (
+				040183AA22CB659C0090AA2E /* TabBarItemType.swift */,
+				040183AC22CB65CD0090AA2E /* TabBarItem.swift */,
+				040183AE22CB671D0090AA2E /* TabBarController.swift */,
+			);
+			path = "Tab Bar";
+			sourceTree = "<group>";
+		};
+		040183C022CB9F4A0090AA2E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				040183C122CB9F670090AA2E /* UITableView+Extension.swift */,
+				040183D122CC1BE30090AA2E /* Date+Extension.swift */,
+				040183D322CC1C2B0090AA2E /* String+Extension.swift */,
+				040183DD22CC4E420090AA2E /* UIView+Extension.swift */,
+				0425DC2C22CCAD2F005E04AD /* UIViewController+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		040183DF22CC5C540090AA2E /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				040183E022CC5C6D0090AA2E /* DistrictData.swift */,
+				0425DC2A22CCAA6A005E04AD /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		0425DC1F22CC9C34005E04AD /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				0425DC2E22CCCF1D005E04AD /* StationViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		0425DC2022CC9C5A005E04AD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0401839E22CB3CBE0090AA2E /* Station.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0425DC2122CC9C92005E04AD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0425DC2722CC9DBF005E04AD /* FavoriteStation */,
+				0425DC2622CC9D9B005E04AD /* StationMap */,
+				0425DC2522CC9D72005E04AD /* StationList */,
+				0425DC2422CC9D27005E04AD /* Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0425DC2422CC9D27005E04AD /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				040183BC22CB77B30090AA2E /* StationCell.swift */,
+				040183BD22CB77B30090AA2E /* StationCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		0425DC2522CC9D72005E04AD /* StationList */ = {
+			isa = PBXGroup;
+			children = (
+				040183B022CB746C0090AA2E /* StationListVC.swift */,
+				040183B122CB746C0090AA2E /* StationListVC.xib */,
+			);
+			path = StationList;
+			sourceTree = "<group>";
+		};
+		0425DC2622CC9D9B005E04AD /* StationMap */ = {
+			isa = PBXGroup;
+			children = (
+				040183B422CB75570090AA2E /* StationMapVC.swift */,
+				040183B522CB75570090AA2E /* StationMapVC.xib */,
+				040183D922CC49610090AA2E /* CustomCallOutView.swift */,
+				040183DB22CC49760090AA2E /* CustomCallOutView.xib */,
+				040183CD22CC093F0090AA2E /* CustomPinAnnotation.swift */,
+				040183CF22CC095A0090AA2E /* CustomPinAnnotation.xib */,
+				040183D522CC3ABF0090AA2E /* MyCustomPointAnnotation.swift */,
+			);
+			path = StationMap;
+			sourceTree = "<group>";
+		};
+		0425DC2722CC9DBF005E04AD /* FavoriteStation */ = {
+			isa = PBXGroup;
+			children = (
+				040183B822CB75700090AA2E /* FavoriteVC.swift */,
+				040183B922CB75700090AA2E /* FavoriteVC.xib */,
+			);
+			path = FavoriteStation;
 			sourceTree = "<group>";
 		};
 		71C692793659D4212169B722 /* Pods */ = {
@@ -150,7 +316,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				040183D022CC095A0090AA2E /* CustomPinAnnotation.xib in Resources */,
+				040183DC22CC49760090AA2E /* CustomCallOutView.xib in Resources */,
 				0401839422CB2D140090AA2E /* LaunchScreen.storyboard in Resources */,
+				040183B322CB746C0090AA2E /* StationListVC.xib in Resources */,
+				040183BB22CB75700090AA2E /* FavoriteVC.xib in Resources */,
+				040183B722CB75570090AA2E /* StationMapVC.xib in Resources */,
+				040183BF22CB77B30090AA2E /* StationCell.xib in Resources */,
 				0401839122CB2D140090AA2E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -211,7 +383,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				040183CE22CC093F0090AA2E /* CustomPinAnnotation.swift in Sources */,
+				040183D222CC1BE30090AA2E /* Date+Extension.swift in Sources */,
+				040183AD22CB65CD0090AA2E /* TabBarItem.swift in Sources */,
+				040183A622CB497B0090AA2E /* StationService.swift in Sources */,
+				040183AB22CB659C0090AA2E /* TabBarItemType.swift in Sources */,
+				0401839F22CB3CBE0090AA2E /* Station.swift in Sources */,
+				040183BA22CB75700090AA2E /* FavoriteVC.swift in Sources */,
+				0425DC2F22CCCF1D005E04AD /* StationViewModel.swift in Sources */,
+				040183BE22CB77B30090AA2E /* StationCell.swift in Sources */,
+				040183AF22CB671D0090AA2E /* TabBarController.swift in Sources */,
+				040183B222CB746C0090AA2E /* StationListVC.swift in Sources */,
 				0401838A22CB2D120090AA2E /* AppDelegate.swift in Sources */,
+				040183DE22CC4E420090AA2E /* UIView+Extension.swift in Sources */,
+				040183B622CB75570090AA2E /* StationMapVC.swift in Sources */,
+				040183D422CC1C2B0090AA2E /* String+Extension.swift in Sources */,
+				0425DC2B22CCAA6A005E04AD /* Constants.swift in Sources */,
+				040183E122CC5C6E0090AA2E /* DistrictData.swift in Sources */,
+				040183DA22CC49610090AA2E /* CustomCallOutView.swift in Sources */,
+				0425DC2D22CCAD2F005E04AD /* UIViewController+Extension.swift in Sources */,
+				040183D622CC3ABF0090AA2E /* MyCustomPointAnnotation.swift in Sources */,
+				040183C222CB9F670090AA2E /* UITableView+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,6 +545,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9QV6XYH2RV;
 				INFOPLIST_FILE = "$(SRCROOT)/YoubikeDemo/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -372,6 +565,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9QV6XYH2RV;
 				INFOPLIST_FILE = "$(SRCROOT)/YoubikeDemo/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
